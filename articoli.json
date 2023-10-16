@@ -1,0 +1,22 @@
+{
+	"articoli": [
+			{
+				"h2Text": "Dynamic article.",
+				"h5Text": "Last article, 19/07/2022.",
+				"imgPath": "images/landscape/pexels-photo-747964.jpg",
+				"imgAlt": "Visita al lago di Garda durante il tramonto...",
+				"paragraphs": ["AAA aaa!", "BBB bbb!"],
+				"mediaType": "image",
+				"isBefore": false
+			},
+			{
+				"h2Text": "New dynamic article.",
+				"h5Text": "Last article, 13/09/2022.",
+				"imgPath": "images/landscape/pexels-photo-1447092.jpg",
+				"imgAlt": "Risaie cinesi...",
+				"paragraphs": ["CCC ccc!", "DDD ddd!", "EEE fff!"],
+				"mediaType": "image",
+				"isBefore": false
+			}
+		]
+}

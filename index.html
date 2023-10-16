@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Massimo Borlandelli">
+        <meta name="description" content="Sito di Prova">
+        <title>My Company</title>
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <!-- https://www.favicon.cc/? -->
+        <link href="css/stili.css" rel="stylesheet" type="text/css">
+    </head>
+
+
+    <body>
+
+        <!-- Header -->
+        <header class="header header-image">
+            <h1>My Company</h1>
+            <p id="ownerParagraph"></p>
+            <p>Sito di prova</p>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div id="hamburgerContainer" class="hamburger" onclick="changeHamburgerIcon(); setInnerNavbarVisibility();">
+                <div class="rect1"></div>
+                <div class="rect2"></div>
+                <div class="rect3"></div>
+            </div>
+             
+            <div id="innerNavbarContainer" class="showInnerNavbar">
+
+
+
+                <!-- Routing Management 2/4. -->
+                <a href="#" onclick="onNavItemClick('/'); return false;">Home</a>
+                <a href="#" onclick="onNavItemClick('/media'); return false;">Media</a>
+                
+
+                
+                <!-- <a href="media.html" target="_self">Media</a> -->
+                <a href="https://www.google.com" target="_blank">Google</a>
+                <a href="https://www.microsoft.com" target="_blank">Microsoft</a>
+                <a href="https://www.facebook.com" target="_blank">Facebook</a>
+                <a href="https://www.adobe.com" target="_blank">Adobe</a>
+                <a href="https://www.oracle.com" target="_blank">Oracle</a>
+            </div>
+        </nav>
+
+        <!-- Search form -->
+        <form id="searchForm">
+            <span>Search:</span>
+            <input type="text" name="search" placeholder="Write here">
+            <input type="submit" value="search">
+        </form>
+
+        <!-- Content -->
+        <main class="main">
+
+            <!-- Content sx-->
+            <section class="section">
+
+                <!-- Used Js for content-->
+
+            </section>
+
+            <!-- Content dx -->
+            <aside class="aside">
+
+                <article class="card">
+                    <header class="cardHeader">
+                        <h3>Massimo Borlandelli</h3>
+                        <p>Autore degli articoli.</p>
+                    </header>
+                    <section class="cardSection">
+                        <img src="images/landscape/montagne_e_valle.jpg" alt="Visita al lago di Garda durante il tramonto..." class="responsiveImage">
+                    </section>
+                    <section class="cardSection">
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                    </section>
+                    <footer class="cardFooter">
+                        <p>Copyright © 2022.</p>
+                    </footer>
+                </article>
+
+                <article class="card">
+                    <header class="cardHeader">
+                        <h3>Approfondimenti</h3>
+                        <p>Link a risorse utili.</p>
+                    </header>
+                    <section class="cardSection">
+                        <ul>
+                            <li><a href="https://exploit.education/" target="_blank">Penetration Testing</a></li>
+                            <li><a href="https://www.oracle.com/it/data-science/machine-learning/what-is-machine-learning/" target="_blank">Machine Learning</a></li>
+                            <li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank">C# Programming</a></li>
+                        </ul>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                    </section>
+                    <section class="cardSection">
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                    </section>
+                    <section class="cardSection">
+                        <img src="images/landscape/montagne_e_valle.jpg" alt="Visita al lago di Garda durante il tramonto..." class="responsiveImage">
+                    </section>
+                    <footer class="cardFooter">
+                        <p>Copyright © 2022.</p>
+                    </footer>
+                </article>
+
+            </aside>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+
+            <div id="innerFooterContainer">
+                <a href="https://www.facebook.com" target="_blank"><img src="icons/fb.svg"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="icons/ig.svg"></a>
+                <a href="https://www.linkedin.com" target="_blank"><img src="icons/ln.svg"></a>
+                <a href="https://www.twitter.com" target="_blank"><img src="icons/tw.svg"></a>
+            </div>
+            <div id="innerFooter2Container">
+                Copyright © 2022
+            </div>
+        </footer>
+
+        <script src="js/code.js" type="text/javascript"></script>
+    </body>
+</html>

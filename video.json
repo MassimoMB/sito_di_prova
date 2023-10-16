@@ -1,0 +1,13 @@
+{
+	"articoli": [
+			{
+				"h2Text": "Dynamic article.",
+				"h5Text": "Last article, 19/07/2022.",
+				"imgPath": "videos/big_buck_bunny_720p_2mb.mp4",
+				"imgAlt": "",
+				"paragraphs": ["AAA aaa!", "BBB bbb!"],
+				"mediaType": "video",
+				"isBefore": false
+			}
+		]
+}
